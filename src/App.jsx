@@ -3,7 +3,7 @@ import "./App.css";
 import { useId } from "react";
 import axios from "axios";
 const App = () => {
-  const inputId = useId();
+  const inputId = useId();// Generate an unique Id  
 
   const [data, setData] = useState([]);
 
